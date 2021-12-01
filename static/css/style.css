@@ -1,48 +1,41 @@
 /* ================ reset 样式 start  ================ */
-
+html{direction:rtl;}
+@font-face {
+    font-family: "alkatip basma tom";
+    font-style:  normal;
+    font-weight: normal;
+    src: local("alkatip basma tom"),
+    url(ALKATIPBasmaTom.ttf) format("opentype"); /* non-IE */
+    url(ALKATIP.eot) format('embedded-opentype'),
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: "微软雅黑";
+    font-family: "alkatip basma tom";
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-body,
-ul,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-form,
-dl,
-dt,
-dd {
+body,ul,li,h1,h2,h3,h4,h5,h6,p,form,dl,dt,dd {
     margin: 0px;
     padding: 0px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
 }
 
 img {
     border-style: none;
 }
-
+div .col-sm-12{
+    float:right;
+}
 li {
     list-style: none;
 }
-
 a {
     text-decoration: none
 }
-
-html,
-body {
+html,body {
     background: #fff;
     height: 100%;
 }
@@ -105,7 +98,6 @@ textarea {
     padding-left: 36px;
     font-size: 36px;
     color: rgba(0, 39, 102, 1);
-    font-family: SourceHanSansSC-regular;
 }
 
 
@@ -162,15 +154,15 @@ textarea {
 .search-methods {
     display: none;
     position: absolute;
-    left: 0;
+    right: 0;
     top: 54px;
-    width: 155px;
+    width: 105px;
     border: 1px solid rgba(217, 217, 217, 0.96);
     background-color: #fff;
 }
 
 .search-methods li {
-    padding-left: 39px;
+    padding-right: 39px;
     background: url("./img/scgoogle.png") 10px no-repeat;
     overflow: hidden;
     height: 34px;
@@ -280,7 +272,7 @@ li.google {
 .search-submit {
     width: 123px;
     height: 54px;
-    line-height: 26px;
+    line-height: 35px;
     /* background: url("./img/search.png") #1890ff 48px center no-repeat; */
     background-color: #1890FF;
     /* background-image: url("./img/search.png"); 
@@ -293,7 +285,7 @@ li.google {
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-    font-family: Roboto;
+    font-family: "alkatip basma tom";
     border: 1px solid #1890ff;
     cursor: pointer;
     background: linear-gradient(90deg, #1890FF, #455bfb);
@@ -320,7 +312,7 @@ li.google {
 
 .jj-list {
     width: 33.33%;
-    float: left;
+    float: right;
     margin-bottom: 30px;
     padding-right: 16px;
 }
@@ -348,7 +340,7 @@ li.google {
     /*设置div的内边距*/
     width: 33.33%;
     /*div等分成4部分*/
-    float: left;
+    float: right;
     transform-origin: center top;
 }
 
@@ -391,7 +383,7 @@ li.google {
     display: block;
     background: rgba(230, 247, 255, 0.96);
     color: rgba(49, 70, 89, 1);
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     line-height: 44px;
     transition: all 0.2s;
