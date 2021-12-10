@@ -1,0 +1,11 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'UKIJ Tuz Tom';
+	font-style: normal;
+	font-weight: normal;
+	src: url('UkijTuzTom.eot?#iefix');
+	src: local('UKIJ Tuz Tom'), local('UKIJ Tuz Tom'), url('UkijTuzTom.ttf');
+}
+html{
+	direction:rtl;
+}

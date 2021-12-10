@@ -1,0 +1,218 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+time,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+html,
+body {
+  height: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+li {
+  display: list-item;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+input {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+body,
+input {
+  font-family: "Ukij Tuz Tom", Arial, simsun, sans-serif;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto;
+  background: #FFF;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.667;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #c9141d;
+  text-decoration: none;
+}
+em {
+  font-style: normal;
+}
+.area {
+  width: 1180px;
+  margin: 0 auto;
+}
+.wei-header {
+  height: 68px;
+}
+.wei-header .wei-header-area {
+  height: 100%;
+}
+.wei-header .wei-header-area .logo {
+  width: 240px;
+  height: 41px;
+  float: right;
+  background: url(../images/wei_logo.png) no-repeat 0 0;
+  overflow: hidden;
+  line-height: 500px;
+  margin-top: 16px;
+}
+.wei-header .wei-header-area .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wei-header .wei-header-area .product {
+  float: left;
+  margin-top: 24px;
+}
+.wei-header .wei-header-area .product a {
+  display: inline-block;
+  font-size: 14px;
+  line-heigtht: 25px;
+  margin-left: 24px;
+}
+.wei-header .wei-header-area .product .icon {
+  width: 54px;
+  height: 27px;
+  margin-left: 8px;
+  background: url() no-repeat center;
+  vertical-align: top;
+  display: inline-block;
+}
+.wei-header .wei-header-area .product .mp-icon {
+  background-image: url(../images/logo01.png);
+}
+.wei-header .wei-header-area .product .pinyin-icon {
+  background-size:23px 23px;background-image: url(http://statics.itc.cn/web/static/images/weimain/logo02.png);
+} 
+.wei-header .wei-header-area .product .browser-icon {
+  background-image: url(http://statics.itc.cn/web/static/images/weimain/logo03.png);
+}
+.wei-content {
+  background: #061B2C url(../images/bg01.png) no-repeat center top;
+  height: 634px;
+}
+.wei-content .wei-content-area {
+  padding-top: 26px;
+  text-align: center;
+}
+.wei-content .wei-content-area .wei-pic {
+  width: 750px;
+  margin: 0 auto;
+}
+.wei-footer {
+  margin: 50px auto 40px;
+  color: #333;
+  line-height: 38px;
+  text-align: center;
+}
+
+.wei-web {
+  min-width: 1200px;
+}
