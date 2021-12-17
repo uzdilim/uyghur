@@ -1,0 +1,21 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'UKIJ Tuz Tom';
+	font-style: normal;
+	font-weight: normal;
+	src: url('UkijTuzTom.eot?#iefix');
+	src: local('UKIJ Tuz Tom'), local('UKIJ Tuz Tom'), url('UkijTuzTom.ttf');
+}
+body{min-width:1200px;}
+html,body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,button,textarea,iframe,table,th,td{margin:0;padding:0;}
+p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,a{direction:rtl;}
+img{border:0 none;vertical-align:top;}
+ul,li,dl,dd,dt{list-style-type:none;}
+i,em,cite{font-style:normal;}
+body{-webkit-text-size-adjust:none;font-family:"UKIJ Tuz Tom";font-size:16px;}
+input, button{font-family:"UKIJ Tuz Tom";font-size:14px;}
+a{text-decoration:none;color:#333333;}
+a:focus,textarea:focus{outline:none;}
+.clr::after{content:'';display: block;clear: both;}
+.container{width: 1000px;margin: 0 auto; padding-top: 0.1px;}
+button {border: none; background-color: #fff;outline:none;cursor: pointer;}
